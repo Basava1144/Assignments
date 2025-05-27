@@ -9,12 +9,16 @@ public class Assignment3EmpsGroup {
 		
 		Assignment3Employees emp= new Assignment3Employees();
 		
-	     System.out.println("Employee Name: " + emp.empname[0] + ", EmployeeID: " +emp.empid[0]);
-	        System.out.println("Employee Name: " + emp.empname[1] + ", EmployeeID: " + emp.empid[1]);
-	        System.out.println("Employee Name: " + emp.empname[2] + ", EmployeeID: " + emp.empid[2]);
+		String[] empname= {emp.empname1,emp.empname2,emp.empname3};
+		int []empid = {emp.empid1,emp.empid2,emp.empid3};
+		
+	        System.out.println("Employee Name: " + empname[0]+ ", EmployeeID: " +empid[0]);
+	        System.out.println("Employee Name: " + empname[1] + ", EmployeeID: " +empid[1]);
+	        System.out.println("Employee Name: " + empname[2] + ", EmployeeID: " + empid[2]);
 		
 		
 
 	}
 
 }
+ 

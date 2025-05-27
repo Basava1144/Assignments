@@ -1,8 +1,22 @@
 package classesAndObjectsAssignment3;
 
 public class Assignment3Employees {
-String[] empname= {"Bharath", "ABC", "XYZ" };
-int[] empid = {1234, 1235, 1236}; 
+	
+	// seperate variables
+	
+String empname1= "Bharath";
+int empid1 =1234;
+		
+		
+		
+String empname2="ABC"; 
+int empid2 =1235;
+
+
+
+String empname3= "XYZ";
+int empid3=1236;
+
 
 
 		
