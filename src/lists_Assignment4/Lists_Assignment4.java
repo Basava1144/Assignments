@@ -68,7 +68,7 @@ public class Lists_Assignment4 {
 		   grossingmovies.add("Pushpa-2");
 		   grossingmovies.add("Bahubali-2");
 		   
-		   System.out.println("Top 5 highest-grossing movies of all time :"+grossingmovies+ "third  movie on the list:"+grossingmovies.get(3));
+		   System.out.println("Top 5 highest-grossing movies of all time :"+grossingmovies+ "third  movie on the list:"+grossingmovies.get(2));
 		   
 		   
 		  
