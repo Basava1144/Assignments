@@ -4,7 +4,7 @@ public class Assignment3Employees {
 	
 	// seperate variables
 	
-String empname1= "Bharath";
+ String empname1= "Bharath";
 int empid1 =1234;
 		
 		
