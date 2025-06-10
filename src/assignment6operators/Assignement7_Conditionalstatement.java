@@ -18,16 +18,50 @@ public class Assignement7_Conditionalstatement {
 		
 		if (creditScore>750)
 		{
-			System.out.println("");
+			System.out.println(customerName+"the loan is automatically approved.");
+			
 		}
+		else if(creditScore >= 650 && creditScore <= 750) 
+		{
+			if (income>=50000) {
+				
+				if (isEmployed)
+				{
+					if (debtToIncomeRatio<=40) 
+					{
+						System.out.println(customerName +"the loan is approved.");
+					}
+					else  
+					{
+						
+						System.out.println(customerName +"the loan is denied.");
+					}
+				}
+				
+						
+					
+				else
+				{  
+					System.out.println(customerName + "is unemployed");
+				}
+				}
+			else 
+			{
+				System.out.println(customerName+"The income is below $500000.");
+				
+			}
+				
+				
+			}
+			
+			else
+		 {
+			System.out.println(customerName +"The Loan cannot  be consideredas score is less then 650");
+			
+			
 		}
 			
+	}}
+	
 		
 		
-		
-		
-		
-
-	}
-
-}
